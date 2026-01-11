@@ -3,4 +3,4 @@ kind: Kptfile
 metadata:
   name: rabc
 info:
-  test
+  description: "rbac blueprint for testing"
