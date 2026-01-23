@@ -2,10 +2,4 @@ apiVersion: kpt.dev/v1
 kind: Kptfile
 metadata:
   name: hello-test
-pipeline:
-  mutators:
-    # 这一步会执行您的 AI 调度脚本
-    - image: python:3.9-slim # 或者您打包好该脚本的镜像
-      configPath: scheduler_config.yaml
-      exec: 
-        command: ["python", "/path/to/scheduler_function.py"]
+
