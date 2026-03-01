@@ -13,7 +13,7 @@ spec:
     workspaceName: main
   downstream:
     package: example-cluster
-    repo: mgmt-staging
+    repo: mgmt
   injectors:
   - kind: WorkloadCluster
     name: example
